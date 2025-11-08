@@ -20,8 +20,8 @@ Description: Página principal personalizada para el portfolio.
 <body>
     <header class="header">
         <div class="header-container">
-            <div class="profile-section">
-                <img src="img/Captura de pantalla 2023-10-29 143042 (1).png" alt="Pedro Fernández Ruz" class="profile-image">
+                <div class="profile-section">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/Captura de pantalla 2023-10-29 143042 (1).png" alt="Pedro Fernández Ruz" class="profile-image">
                 <h1>Pedro Fernández Ruz</h1>
             </div>
             <div class="contact-info">
@@ -57,7 +57,7 @@ Description: Página principal personalizada para el portfolio.
             <div class="education-container">
                 <div class="education-card">
                     <div class="education-logo">
-                        <img src="img/ESIC.png" alt="ESIC Business and Marketing School">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/ESIC.png" alt="ESIC Business and Marketing School">
                     </div>
                     <div class="education-details">
                         <h3>Grado Superior Marketing y Publicidad</h3>
@@ -94,7 +94,7 @@ Description: Página principal personalizada para el portfolio.
                 </div>
                 <div class="education-card">
                     <div class="education-logo">
-                        <img src="img/mioti-talento-digital_0.png" alt="MIOTI">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/mioti-talento-digital_0.png" alt="MIOTI">
                     </div>
                     <div class="education-details">
                         <h3>Máster en Marketing Digital y Analítica</h3>
@@ -192,109 +192,162 @@ Description: Página principal personalizada para el portfolio.
                     <div class="carousel">
                         <!-- Primer conjunto de elementos -->
                         <div class="carousel-item">
-                            <img src="img/Ahrefs-Logo.png" alt="Ahrefs">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Ahrefs-Logo.png" alt="Ahrefs">
                             <span class="tool-name">Ahrefs</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/search-console-icon-2025-1.svg" alt="Search Console">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/search-console-icon-2025-1.svg" alt="Search Console">
                             <span class="tool-name">Search Console</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Logo_Google_Analytics.svg.png" alt="Google Analytics">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Logo_Google_Analytics.svg.png" alt="Google Analytics">
                             <span class="tool-name">Google Analytics</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Wordpress-Logo.svg.png" alt="WordPress">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Wordpress-Logo.svg.png" alt="WordPress">
                             <span class="tool-name">WordPress</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/pfo-google-trends-logo.png" alt="Google Trends">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pfo-google-trends-logo.png" alt="Google Trends">
                             <span class="tool-name">Google Trends</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Google_Ads_logo.svg.png" alt="Google Ads">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Google_Ads_logo.svg.png" alt="Google Ads">
                             <span class="tool-name">Google Ads</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/LinkedIn-Ads.png" alt="LinkedIn Ads">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/LinkedIn-Ads.png" alt="LinkedIn Ads">
                             <span class="tool-name">LinkedIn Ads</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/New_Power_BI_Logo.svg.png" alt="Power BI">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/New_Power_BI_Logo.svg.png" alt="Power BI">
                             <span class="tool-name">Power BI</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Microsoft_Office_Excel_(2025–present).svg.png" alt="Excel">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Microsoft_Office_Excel_(2025–present).svg.png" alt="Excel">
                             <span class="tool-name">Excel</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Notion_app_logo.png" alt="Notion">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Notion_app_logo.png" alt="Notion">
                             <span class="tool-name">Notion</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Canva_Logo.svg.png" alt="Canva">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Canva_Logo.svg.png" alt="Canva">
                             <span class="tool-name">Canva</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe Premiere">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe Premiere">
                             <span class="tool-name">Premiere</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
                             <span class="tool-name">Photoshop</span>
                         </div>
+                            <!-- Duplicado para efecto infinito -->
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Ahrefs-Logo.png" alt="Ahrefs">
+                                <span class="tool-name">Ahrefs</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/search-console-icon-2025-1.svg" alt="Search Console">
+                                <span class="tool-name">Search Console</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Logo_Google_Analytics.svg.png" alt="Google Analytics">
+                                <span class="tool-name">Google Analytics</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Wordpress-Logo.svg.png" alt="WordPress">
+                                <span class="tool-name">WordPress</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/pfo-google-trends-logo.png" alt="Google Trends">
+                                <span class="tool-name">Google Trends</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Google_Ads_logo.svg.png" alt="Google Ads">
+                                <span class="tool-name">Google Ads</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/LinkedIn-Ads.png" alt="LinkedIn Ads">
+                                <span class="tool-name">LinkedIn Ads</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/New_Power_BI_Logo.svg.png" alt="Power BI">
+                                <span class="tool-name">Power BI</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Microsoft_Office_Excel_(2025–present).svg.png" alt="Excel">
+                                <span class="tool-name">Excel</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Notion_app_logo.png" alt="Notion">
+                                <span class="tool-name">Notion</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Canva_Logo.svg.png" alt="Canva">
+                                <span class="tool-name">Canva</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe Premiere">
+                                <span class="tool-name">Premiere</span>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
+                                <span class="tool-name">Photoshop</span>
+                            </div>
                         
                         <!-- Duplicado para efecto infinito -->
                         <div class="carousel-item">
-                            <img src="img/Ahrefs-Logo.png" alt="Ahrefs">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Ahrefs-Logo.png" alt="Ahrefs">
                             <span class="tool-name">Ahrefs</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/search-console-icon-2025-1.svg" alt="Search Console">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/search-console-icon-2025-1.svg" alt="Search Console">
                             <span class="tool-name">Search Console</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Logo_Google_Analytics.svg.png" alt="Google Analytics">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Logo_Google_Analytics.svg.png" alt="Google Analytics">
                             <span class="tool-name">Google Analytics</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Wordpress-Logo.svg.png" alt="WordPress">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Wordpress-Logo.svg.png" alt="WordPress">
                             <span class="tool-name">WordPress</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/pfo-google-trends-logo.png" alt="Google Trends">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/pfo-google-trends-logo.png" alt="Google Trends">
                             <span class="tool-name">Google Trends</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Google_Ads_logo.svg.png" alt="Google Ads">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Google_Ads_logo.svg.png" alt="Google Ads">
                             <span class="tool-name">Google Ads</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/LinkedIn-Ads.png" alt="LinkedIn Ads">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/LinkedIn-Ads.png" alt="LinkedIn Ads">
                             <span class="tool-name">LinkedIn Ads</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/New_Power_BI_Logo.svg.png" alt="Power BI">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/New_Power_BI_Logo.svg.png" alt="Power BI">
                             <span class="tool-name">Power BI</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Microsoft_Office_Excel_(2025–present).svg.png" alt="Excel">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Microsoft_Office_Excel_(2025–present).svg.png" alt="Excel">
                             <span class="tool-name">Excel</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Notion_app_logo.png" alt="Notion">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Notion_app_logo.png" alt="Notion">
                             <span class="tool-name">Notion</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Canva_Logo.svg.png" alt="Canva">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Canva_Logo.svg.png" alt="Canva">
                             <span class="tool-name">Canva</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe Premiere">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Adobe_Premiere_Pro_CC_icon.svg.png" alt="Adobe Premiere">
                             <span class="tool-name">Premiere</span>
                         </div>
                         <div class="carousel-item">
-                            <img src="img/Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop">
                             <span class="tool-name">Photoshop</span>
                         </div>
                     </div>
@@ -324,7 +377,7 @@ Description: Página principal personalizada para el portfolio.
                             <h3>Inglés</h3>
                             <span class="language-level">B2 Certificado</span>
                             <div class="certificate-logo">
-                                <img src="img/CAE-AEC-LOGO.png" alt="Cambridge Assessment English Certified" class="cambridge-logo">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/CAE-AEC-LOGO.png" alt="Cambridge Assessment English Certified" class="cambridge-logo">
                             </div>
                         </div>
                     </div>
